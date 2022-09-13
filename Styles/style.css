@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+  
+}
+.header {
+  color: whitesmoke;
+  font-family: verdana;
+  font-size: 150%;
+  border: 2px solid #788f58;
+  padding: 15px;
+  text-align: center;
+  background-color: #788f58;
+}
+.left{
+  width: 48%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: left;
+    border-collapse: collapse;
+    text-align: right;
+
+}
+.right{
+  width: 48%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: right;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+.vertikala{
+  top: 5px;
+  width: 2px;
+  /*border: 2px solid #788f58;
+  */height: 620px;
+  position: relative;
+  margin: auto;
+  background-color: #788f58;
+}
+.crtaPrva{
+  position: absolute;
+  border: 1px solid #788f58; 
+  background-color: #788f58;
+  width: 30px;
+  top: 30px;
+  left: -15px;
+}
+.krugPrvi{
+  border-radius: 50%;
+  position: absolute;
+  border: 5px solid #788f58;
+  top: -5px;
+  left: 10px;
+}
+.crtaDruga{
+  position: absolute;
+  border: 1px solid #788f58; 
+  background-color: #788f58;
+  width: 15px;
+  top: 148px;
+  left: 0px;
+}
+.krugDrugi{
+  border-radius: 50%;
+  position: absolute;
+  border: 5px solid #788f58;
+  top: -5px;
+  left: -5px;
+}
+.crtaTreca{
+  position: absolute;
+  border: 1px solid #788f58; 
+  background-color: #788f58;
+  width: 15px;
+  top: 278px;
+  left: -15px;
+}
+.krugTreci{
+  border-radius: 50%;
+  position: absolute;
+  border: 5px solid #788f58;
+  top: -5px;
+  left: 10px;
+}
