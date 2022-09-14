@@ -1,5 +1,8 @@
 body {
   background-color: white;
+  width: 21cm;
+  height: 29.7cm;
+  margin: auto;
   
 }
 .header {
@@ -7,44 +10,50 @@ body {
   font-family: verdana;
   font-size: 150%;
   border: 2px solid #788f58;
-  padding: 15px;
+  padding: 10x;
   text-align: center;
   background-color: #788f58;
+  margin: 10px;
+  font-family: "Garamond", Times, serif;
 }
 .left{
-  width: 48%;
+  width: 45%;
     min-width: 350px;
     height: available;
     min-height: 400px;
     float: left;
     border-collapse: collapse;
     text-align: right;
-
+    margin-left: 20px;
+    font-family: "Garamond", Times, serif;
 }
 .right{
-  width: 48%;
+  width: 45%;
     min-width: 350px;
     height: available;
     min-height: 400px;
     float: right;
     border-collapse: collapse;
     text-align: left;
+    margin-right: 20px;
+    font-family: "Garamond", Times, serif;
 
 }
 .vertikala{
   top: 5px;
-  width: 2px;
+  width: 1.2px;
   /*border: 2px solid #788f58;
-  */height: 620px;
+  */height: 740px;
   position: relative;
   margin: auto;
-  background-color: #788f58;
+  background-color: #c7c7c7;
 }
 .crtaPrva{
   position: absolute;
-  border: 1px solid #788f58; 
-  background-color: #788f58;
+  /*border: 1px solid #979995; */
+  background-color: #c7c7c7;
   width: 30px;
+  height: 1px;
   top: 30px;
   left: -15px;
 }
@@ -52,14 +61,15 @@ body {
   border-radius: 50%;
   position: absolute;
   border: 5px solid #788f58;
-  top: -5px;
-  left: 10px;
+  top: -4px;
+  left: 10.5px;
 }
 .crtaDruga{
   position: absolute;
-  border: 1px solid #788f58; 
-  background-color: #788f58;
+  /*border: 1px solid #c7c7c7; */
+  background-color: #c7c7c7;
   width: 15px;
+  height: 1px;
   top: 148px;
   left: 0px;
 }
@@ -68,20 +78,26 @@ body {
   position: absolute;
   border: 5px solid #788f58;
   top: -5px;
-  left: -5px;
+  left: -4.5px;
 }
 .crtaTreca{
   position: absolute;
-  border: 1px solid #788f58; 
-  background-color: #788f58;
+  /*border: 1px solid #c7c7c7; */
+  background-color: #c7c7c7;
   width: 15px;
-  top: 278px;
+  height: 1px;
+  top: 312px;
   left: -15px;
 }
 .krugTreci{
   border-radius: 50%;
   position: absolute;
   border: 5px solid #788f58;
-  top: -5px;
-  left: 10px;
+  top: -4.5px;
+  left: 10.5px;
+}
+.progress{
+    accent-color: #788f58 !important;
+    margin-bottom: 4px;
+    font-family: "Garamond", Times, serif;
 }
