@@ -39,7 +39,7 @@ body {
     font-family: "Garamond", Times, serif;
 
 }
-.vertikala{
+.vertical{
   top: 5px;
   width: 1.2px;
   /*border: 2px solid #788f58;
@@ -48,23 +48,23 @@ body {
   margin: auto;
   background-color: #c7c7c7;
 }
-.crtaPrva{
+.firstLine{
   position: absolute;
   /*border: 1px solid #979995; */
   background-color: #c7c7c7;
   width: 30px;
   height: 1px;
-  top: 30px;
+  top: 28px;
   left: -15px;
 }
-.krugPrvi{
+.circleOne{
   border-radius: 50%;
   position: absolute;
   border: 5px solid #788f58;
   top: -4px;
   left: 10.5px;
 }
-.crtaDruga{
+.secondLine{
   position: absolute;
   /*border: 1px solid #c7c7c7; */
   background-color: #c7c7c7;
@@ -73,23 +73,23 @@ body {
   top: 148px;
   left: 0px;
 }
-.krugDrugi{
+.circleTwo{
   border-radius: 50%;
   position: absolute;
   border: 5px solid #788f58;
   top: -5px;
   left: -4.5px;
 }
-.crtaTreca{
+.thirdLine{
   position: absolute;
   /*border: 1px solid #c7c7c7; */
   background-color: #c7c7c7;
   width: 15px;
   height: 1px;
-  top: 312px;
+  top: 307px;
   left: -15px;
 }
-.krugTreci{
+.circleThree{
   border-radius: 50%;
   position: absolute;
   border: 5px solid #788f58;
